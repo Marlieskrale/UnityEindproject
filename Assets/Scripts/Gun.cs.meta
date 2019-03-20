@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0d312f160a2a0b4489aa230c1820c40f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bullet: {fileID: 3245493605262149641, guid: 8e671ac6f7be2ec40b7befba040fabd1,
+      type: 3}
+  - gunEnd: {instanceID: 0}
+  - LelieSpawn2: {fileID: 1633334334, guid: 95befc667058ef049826b4cf756c89a9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
