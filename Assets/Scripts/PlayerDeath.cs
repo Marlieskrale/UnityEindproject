@@ -13,13 +13,31 @@ public class PlayerDeath : MonoBehaviour
         transform.position = StartPosition;
     }
 
+    IEnumerator PlayerPause()
+    {
+        yield return new WaitForSeconds(0f);
+        GetComponent<CharacterController>().enabled = false;
+        //print("Test");
+        Player.transform.position = new Vector3(64.8f, 0.2f, -14.9f);
+        GetComponent<CharacterController>().enabled = true;
+    }
+
     private void OnTriggerEnter(Collider collision)
     {
         print(collision);
         if(collision.gameObject.tag == "Water")
-        {
-            print("Test");
-            Player.transform.position = new Vector3(64.8f, 0.2f, -14.9f);
+         {
+            StartCoroutine(PlayerPause());
+
+            if (collision.gameObject.tag == "Water")
+            {
+                
+            }
+
         }
+
+
     }
+
+    
 }

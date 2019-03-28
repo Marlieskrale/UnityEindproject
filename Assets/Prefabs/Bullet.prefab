@@ -124,3 +124,5 @@ MonoBehaviour:
   bullet: {fileID: 3245493605262149641}
   LelieSpawn: {fileID: 7508304661576118907, guid: 95befc667058ef049826b4cf756c89a9,
     type: 3}
+  SoundClip: {fileID: 8300000, guid: 7c8cd4ead36eb214ab22acf438fefa6b, type: 3}
+  SoundSource: {fileID: 0}
